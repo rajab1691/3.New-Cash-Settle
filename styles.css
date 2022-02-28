@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
+html,
+body {
+    height: 100%;
+    background-color: #19323c;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+}
+
+.header {
+    color: #f2e8cf;
+    font-size: bold;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 38px;
+    font-size: 35px;
+}
+
+#mynetwork {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+}
+
+#mynetwork2 {
+    width: 100%;
+    height: 100%;
+}
+
+#container2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container {
+    width: 100%;
+    height: 70%;
+    background-color: #edff71;
+    border: 1px solid #09bc8a;
+    display: flex;
+    margin: 0 auto;
+}
+
+#generate-graph {
+    margin-left: 550px;
+    display: inline-block;
+}
+
+#solve {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#home {
+    margin-top: 25px;
+    margin-left: 50px;
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    top: 35px;
+}
+
+a:link {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #f2e8cf;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #f2e8cf;
+}
+
+a:hover {
+    color: #ff9000;
+}
+
+a:active {
+    color: #ffc53a;
+}
