@@ -7,13 +7,19 @@ body {
 }
 
 .header {
-    color: #f2e8cf;
+    color: #ff8400;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 60px;
     margin-top: 20px;
     margin-left: 30px;
     margin-bottom: 20px;
-    font-size: 35px;
+    font-size: 50px;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #f4d35e;
+    border-color: #f4d35e;
 }
 
 h3,
@@ -56,7 +62,7 @@ h5 {
 }
 
 a:link {
-    color: #f2e8cf;
+    color: #ff9000;
     text-decoration: none;
 }
 

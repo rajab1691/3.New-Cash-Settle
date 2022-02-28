@@ -7,14 +7,25 @@ body {
     position: relative;
 }
 
-.header {
+
+/* .header {
     color: #f2e8cf;
     font-size: bold;
     font-weight: bolder;
     margin-top: 20px;
     margin-left: 30px;
     margin-bottom: 38px;
-    font-size: 35px;
+    font-size: 50px;
+} */
+
+.header {
+    color: #ff8400;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 50px;
 }
 
 #mynetwork {
@@ -43,6 +54,7 @@ body {
     border: 1px solid #09bc8a;
     display: flex;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 #generate-graph {
@@ -56,12 +68,13 @@ body {
 }
 
 #home {
-    margin-top: 25px;
-    margin-left: 50px;
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
     display: inline-block;
     position: absolute;
     left: -20px;
-    top: 35px;
+    top: 90px;
 }
 
 a:link {
